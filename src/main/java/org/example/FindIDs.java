@@ -17,7 +17,8 @@ public class FindIDs {
         int id = startID;
         ArrayList<String> ids = new ArrayList<>();
         while (id <= endID) {
-            System.out.println(id);
+            System.out.println("Connecting to ID: " + id);
+            System.out.print("\033[H\033[2J");
             String url = "https://www.cup2000.dk/turnerings-system/Vis-turneringer/?tournamentid=" + id;
             Document doc;
             try {
