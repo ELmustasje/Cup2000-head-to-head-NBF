@@ -1,4 +1,4 @@
-Cup2000 head to head backend webscrubing program that analyses norwegain badminton tournaments and creates a head to head statistics table i made as a hobby project.
+Cup2000 head to head backend webscrubing the html program that analyses norwegain badminton tournaments and creates a head to head statistics table i made as a hobby project.
 This is not a finished program, i need to learn more about databases and frontend before i can launch a finished product.
 
 The program consists of 5 classes used for finding information and one main class to controll. 
