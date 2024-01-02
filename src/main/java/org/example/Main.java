@@ -8,6 +8,5 @@ public class Main {
         ArrayList<String>ids = FindIDs.findIds(8000,10700); //2018 - 2023
         testTable.updateTable(ids);
         System.out.println(testTable.fullTable.get("Thomas Barth"));
-
     }
 }
