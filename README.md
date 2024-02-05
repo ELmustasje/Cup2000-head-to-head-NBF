@@ -1,7 +1,8 @@
-Cup2000 head to head backend webscrubing the html program that analyses norwegain badminton tournaments and creates a head to head statistics table i made as a hobby project.
-This is not a finished program, i need to learn more about databases and frontend before i can launch a finished product.
+Cup2000 head to head webscraping. 
+html scraper that analyses norwegain badminton tournaments and creates a head to head statistics table.
+it is not a finished program yet, only the backend.
 
-The program consists of 5 classes used for finding information and one main class to controll. 
+The program consists of 5 classes used for finding information and one main class. 
 
 The get FindIDs class is for getting the ids that belong to the norweagian turnaments, since this system is used by he danish federation and the English federation aswell.
 FindIDs has one function find ids witch takes a start id and an end id (depending on the timeframe you want, 2018-2023 is 8650 - 10600) and return an arrayList witch contians the ids thats belongs to norweaian tournaments.
